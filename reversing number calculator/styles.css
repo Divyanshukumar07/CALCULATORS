@@ -1,0 +1,105 @@
+/* Reset & Global */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body */
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background: #222;
+  font-family: Arial, sans-serif;
+}
+
+/* Calculator Container */
+.calculator {
+  background: #333;
+  background-image: url("tanjiro-kamado-red.png");
+  background-size: cover;          
+  background-position: center;     
+  background-repeat: no-repeat;  
+  padding: 20px;
+  border-radius: 8px;
+  color: #fff;
+  width: 260px;
+  text-align: center;
+  box-shadow: 0 0 10px red;
+}
+
+/* Header */
+h2 {
+  margin-bottom: 10px;
+  font-size: 1.2rem;
+}
+
+/* Display Area */
+#display {
+  background: #000;
+  color: #0f0;
+  height: 40px;
+  line-height: 40px;
+  font-size: 1.4rem;
+  text-align: right;
+  padding: 0 10px;
+  border-radius: 4px;
+  margin-bottom: 10px;
+  overflow-x: auto;
+}
+
+/* Button Grid */
+.keys {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 6px;
+}
+
+/* Button Base */
+.btn {
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  background: #555;
+  color: white;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.2s;
+  user-select: none;
+}
+
+.btn:hover {
+  background: #666;
+}
+
+/* Button Types */
+.number {
+  background: #4a4;
+}
+
+.clear {
+  background: #a33;
+}
+
+.reverse {
+  background: #39c;
+}
+.title {
+  text-align: center;
+  color: rgb(224, 244, 8);
+  margin-bottom: 10px;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.footer {
+  bottom: 2px;   
+  right: 1px;  
+  text-align:center;
+  padding: 5px 10px;
+  border-radius: 5px;
+  color: white;
+  font-weight: bold; 
+}

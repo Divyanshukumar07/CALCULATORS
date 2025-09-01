@@ -1,0 +1,105 @@
+/* Global Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: #222;
+  font-family: Arial, sans-serif;
+}
+
+/* Calculator Container */
+.calculator {
+width: 280px;
+background-image: url("zenitsu.jpg");
+background-size: cover;          
+background-position: center;     
+background-repeat: no-repeat;    
+background-color: #2d2d2d;       
+padding: 25px;
+border-radius: 12px;
+box-shadow: 0 0 15px rgb(197, 184, 5);
+}
+
+/* Header Styling */
+h2 {
+  margin-bottom: 10px;
+  font-size: 1.2rem;
+}
+
+/* Display Area */
+#display {
+  background: #000;
+  color: #0f0;
+  height: 40px;
+  line-height: 40px;
+  font-size: 1.4rem;
+  text-align: right;
+  padding: 0 10px;
+  border-radius: 4px;
+  margin-bottom: 10px;
+  overflow-x: auto;
+}
+
+/* Button Grid */
+.keys {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 6px;
+}
+
+/* Button Styling */
+.btn {
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  background: #555;
+  color: white;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.2s;
+  user-select: none;
+}
+
+/* Button Hover Effect */
+.btn:hover {
+  background: #666;
+}
+
+/* Specific Button Types */
+.clear {
+  background: #a33;
+}
+
+.operator {
+  background: #c96;
+}
+
+.number {
+  background: #4a4;
+}
+
+.title {
+  text-align: center;
+  color: rgb(224, 244, 8);
+  margin-bottom: 10px;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.footer {
+  bottom: 2px;   
+  right: 1px;  
+  text-align:center;
+  padding: 5px 10px;
+  border-radius: 5px;
+  color: white;
+  font-weight: bold; 
+}

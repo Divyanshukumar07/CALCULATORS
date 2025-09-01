@@ -1,0 +1,81 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  /* Background image with fallback gradient */
+  background-size: cover;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.container {
+  width: 500px;
+  max-height: 250px; /* taller min-height */
+  background-image: url("muzan.jpg");
+  background-size: cover;          
+  background-position: center;     
+  background-repeat: no-repeat;    
+  background-color: #2d2d2d;       
+  padding: 15px;
+  border-radius: 12px;
+  box-shadow: 0 0 15px rgb(226, 18, 7);
+  margin: 20px auto; /* center horizontally with vertical spacing */
+}
+
+
+h1 {
+  margin-bottom: 20px;
+}
+
+input[type="number"] {
+  padding: 12px;
+  width: 70%;
+  display: block;      
+  margin: 0 auto 15px;
+  border: none;
+  border-radius: 5px;
+}
+
+
+button {
+  padding: 12px 20px;
+  background-color: #0099ff;
+  display: block;      
+  margin: 0 auto 15px;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+button:hover {
+  background-color: #007acc;
+}
+
+#result {
+  margin-top: 20px;
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 1.6;
+}
+
+.footer {
+  bottom: 2px;   
+  right: 1px;  
+  text-align:right;
+  padding: 5px 10px;
+  border-radius: 5px;
+  color: white;
+  font-weight: bold; 
+}
+
+.title {
+  text-align: center;
+  color: white;
+  margin-bottom: 10px;
+  font-size: 15px;
+  font-weight: bold;
+}
